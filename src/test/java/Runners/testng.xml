@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Thandeka Nkosi/IdeaProjects/RestAssured_Project">
+        <classes>
+            <class name="Testcases.VerifySuccessfulMessageTest">
+                <methods>
+                    <include name="verifySuccessfulMessageTest"/>
+                </methods>
+            </class>
+            <class name="Testcases.VerifyBullDogTest">
+                <methods>
+                    <exclude name="verifyBullDogTest"/>
+                </methods>
+            </class>
+            <class name="Testcases.RetrieveSubBreedsTest">
+                <methods>
+                    <include name="retrieveSubBreedsTest"/>
+                </methods>
+            </class>
+            <class name="Testcases.RetrieveAvailablePetsTest">
+                <methods>
+                    <include name="retrieveAvailablePetsTest"/>
+                </methods>
+            </class>
+            <class name="Testcases.AddNewPetTest">
+                <methods>
+                    <exclude name="addNewPetTest"/>
+                </methods>
+            </class>
+
+            <class name="Testcases.RetrievePetTest">
+                <methods>
+                    <include name="retrievePetTest"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
